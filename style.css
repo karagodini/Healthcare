@@ -1,0 +1,485 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    background-color: #FFFFFF;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+
+body {
+    font-family: 'Roboto', 'Rubik', 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 70px;
+    color: #3E3E3E;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: rgba(61, 61, 63, 0.7);
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 135px;
+}
+
+.logo {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 31.635px;
+    line-height: 47px;
+    letter-spacing: 1px;
+    color: #40A3F8;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-link {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6E5F5F;
+    opacity: 0.3;
+    text-decoration: none;
+    margin-left: 46px;
+}
+
+.menu-link:hover {
+    color: #40A3F8;
+}
+
+.menu-link-btn {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14.997px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 13px 28px;
+    background: #40A3F8;
+    border-radius: 5px;
+    margin-left: 46px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 135px;
+    margin-top: 150px;
+}
+
+.header-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #3E3E3E;
+    width: 482px;
+}
+
+span {
+    color: #40A3F8;
+}
+
+.header-desc {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(117, 117, 117, 0.46);
+    width: 460px;
+}
+
+.header-search-block {
+    width: 715px;
+}
+
+.search {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.3);
+    padding: 17px 0px 18px 15px;
+    background: rgba(245, 246, 250, 0.52);
+    border-radius: 8px;
+    border: none;
+}
+
+.City {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3D3D3F;
+    padding: 18px 50px;
+    background: rgba(245, 246, 250, 0.52);
+    border-radius: 8px;
+    border: none;
+}
+
+.header-search-btn {
+    background: #40A3F8;
+    border-radius: 8px;
+    padding: 19px 19px;
+}
+
+.header-search-img {
+    margin-bottom: -12px;
+}
+
+.header-images {
+    background: url(images/header-fon.png) no-repeat;
+    margin-left: -70px;
+}
+
+.header-img1 {
+    margin-left: -260px;
+    margin-top: 40px;
+}
+
+.easy-steps {
+    margin: 75px 0;
+}
+.easysteps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.easystep {
+    width: 320px;
+    margin: 0 65px;
+}
+
+.easystep-img {
+    margin-left: 140px;
+}
+
+.easystep-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #3D3D3F;
+    text-align: center;
+}
+
+.easystep-desc {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.quality {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quality-content {
+    width: 506px;
+    margin-left: 109px;
+}
+
+.quality-img-text {
+    margin-bottom: -3px;
+    margin-right: 17px;
+}
+
+.quality-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #3D3D3F;
+}
+
+.quality-btn {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 10px 19px;
+    background: #40A3F8;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.service {
+    margin: 140px 0;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-content {
+    width: 350px;
+    padding: 30px 60px;
+    margin: 0 33px;
+    margin-top: 75px;
+}
+
+.service-img1 {
+    margin-left: 60px;
+}
+
+.service-img2 {
+    margin-left: 80px;
+}
+
+.service-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #3D3D3F;
+}
+
+.service-desc {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
+}
+
+.doctors {
+    margin: 120px 0;
+}
+
+.doctors-img-top {
+    margin-left: 682px;
+}
+
+.doctors-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 58px;
+}
+
+.doctors-content {
+    border: 1px solid #EEEFF1;
+    border-radius: 10px;
+    padding: 10px 13px;
+    width: 267px;
+    height: 430px;
+    margin: 18px;
+}
+
+.doctors-img {
+    margin-bottom: -110px;
+    margin-left: -5px;
+}
+
+.doctors-name {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #3D3D3F;
+}
+
+.doctors-desc {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
+}
+
+.doctors-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctors-icon {
+    margin: 0 6px;
+}
+
+.doctors-btn {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+    padding: 9px 22px;
+    background: #40A3F8;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 619px;
+}
+
+.mobile {
+    margin: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-content {
+    width: 503px;
+}
+
+.mobile-btns {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.mobile-btn {
+    margin: 0 6px;
+}
+
+.clients {
+    margin-bottom: 90px;
+}
+
+.clients-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client {
+    width: 373px;
+    height: 391px;
+    padding: 32px;
+    margin: 32px;
+}
+
+.client-img-top {
+    margin-left: 270px;
+}
+
+.client-avatar {
+    margin-left: 120px;
+}
+
+.client-names {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client-name {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 55px;
+    color: #3D3D3F;
+    margin: 0;
+}
+
+.client-city {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    background: linear-gradient(90.26deg, #47C2FF 0.21%, rgba(99, 203, 254, 0.65) 97.38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.client-desc {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #454D5D;
+}
+
+.record {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #40A3F8;
+    border-radius: 12px;
+    width: 1170px;
+    height: 341px;
+    margin-left: 135px;
+    margin-bottom: 120px;
+    margin-top: 180px;
+}
+
+.record-content {
+
+}
+
+.record-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 402px;
+}
+
+.record-btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'cpsp' on;
+    color: #40A3F8;
+    padding: 15px 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.record-img {
+    margin-top: -110px;
+}
